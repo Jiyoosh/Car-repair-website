@@ -1,0 +1,395 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgba(255,255,255,0.2);
+}
+/*css of the navigation bar starts here*/
+header{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0%;
+    background:black;
+    opacity: 0.9;
+}
+.logo{
+    padding: 0% 30px;
+    color: red;
+}
+nav li{
+    display: inline;
+    padding: 20px 10px;
+    cursor: pointer; 
+}
+a{
+    font-size: 20px;
+    font-weight: 200;
+    color:white;
+    text-decoration:none;
+    cursor: pointer;
+}
+nav li a:hover{
+    color: red;
+}
+button{
+    z-index: 1;
+    background: rgba(0,0,0,0.2);
+    border :1px solid red ;
+    border-radius: 50px;
+    padding:3px 10px;
+    margin: 10px 150px;
+    font-size: 18px;
+    font-weight: 200;
+    color:azure;
+    text-decoration:none;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: red;
+}
+/*end off nav css */
+.paragraph1{
+width: 100%;    
+} 
+.para-heading1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:black;
+    text-shadow: 2px 2px 2px red;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: center;
+}
+.para-1{
+    margin-top: 40px;
+   display: flex;
+   justify-content: end;
+   margin: 30px 300px;
+   align-items: center;
+   font-size: 25px;
+   
+}
+/*end pf para css begining of */
+/* these are the css of the main container in home page*/
+  .container {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-bottom: 20px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+/*end of the main container css of home page */
+
+/*beagning of sell page paragraph css*/
+
+
+.maindivsell{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bggg.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+   
+    
+}
+.overlaytext  {
+    font-size: 88px;
+    color: aliceblue;
+    text-align:center;
+    padding-top:255px;
+    opacity:0.6;
+
+}
+.para-heading2{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:black;
+    text-shadow: 2px 2px 2px red;
+    border-bottom: solid 1px black;
+
+}
+
+.paragraph2{
+    width:100%;
+    
+}
+
+.para2{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 35px;
+    padding-left:300px;
+    margin-right:300px;
+    margin-bottom:  30px;
+}
+/*end of sell page paragraph*/
+
+/*begning of css of signup page and sell page form*/
+.bodysignup{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(63, 63, 63, 0.52), rgba(0, 0, 0, 0.73)),url(signup-bg.jpg);
+    background-size: cover;
+}
+.containerform{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    background:rgba(63, 63, 63, 0.52);
+    padding: 28px;
+    margin:0 28pc;
+    border-radius: 10px;
+    border: 1px solid red;
+    
+}
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:red;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px red;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.user-input-box label{
+    width: 95%;
+    color:white;
+    font-size: 20px;
+    font-weight: 40px;
+    margin: 5px 0;
+}
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 0 10px;
+
+} 
+.buttonform{
+    
+        display: block;
+        width: 90%;
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px;
+        border: 1px solid red;
+        border-radius: 25px;
+        color:red;
+        background: white;
+
+    }
+    button:hover{
+        background-color:red;
+        color: antiquewhite;
+}
+/*end of signup and sell form css*/
+/* adding css to button of about us page*/
+.buttonab{
+    margin-left: 700px;
+}
+/*begning of paint gallary css*/
+.gallary{
+   display: block;
+   padding: 20px 20px;
+   margin: 100px 30px;
+   padding-left: 100px;
+}
+.gallary img{
+    padding: 10px;
+    height: 200px;
+    
+
+}
+.gallarybg{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(car\ painting.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+
+}
+.gallarybg1{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(costom.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+
+}
+.gallarybg2{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(enginebay.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+
+}
+.gallarybg3{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(tyre.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+}
+.gbutton{
+    background: rgba(0,0,0,0.2);
+    justify-content: center;
+    border :1px solid red ;
+    border-radius: 50px;
+    padding:10px 10px;
+    margin-left: 650px;
+    margin-bottom: 100px;
+    font-size: 22px;
+    font-weight: 200;
+    color:azure;
+    text-decoration:none;
+    cursor: pointer;
+
+}
+
+
+/*end of paint gallary css*/
+
+
+/*css of footer*/
+.footer{
+    margin-top: 30px;
+    padding: 70px 0;
+    background-color:black;
+    opacity: 0.9;
+    
+    
+}
+.contaier{
+    max-width: 1170px;
+    margin: auto;
+   
+    
+   
+}
+.row{
+    display: flex;
+    width: 900px;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    font-weight:300px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    transition:all 0.3s ease;
+    position: relative;
+    margin-bottom: 10px;
+}
+.footer-col ul li a:hover{
+    color: red;
+    padding-left: 6px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background: rgba(255,255,255,0.2);
+    margin:0 10px 10 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:red;
+    transition: all 0,5 ease;
+}
+.footer-col .social-link a:hover{
+    color: #24262b;
+    background: #fff;
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:567px){
+    .footer-col{
+        width: 50%;
+    }
+}
+/*end of fotter css*/
